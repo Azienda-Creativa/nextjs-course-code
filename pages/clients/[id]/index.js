@@ -2,7 +2,6 @@ import { useRouter } from "next/router"
 
 export default function ClientProjectsPage() {
   const router = useRouter()
-
   console.log(router.query)
 
   function loadProjectHandler() {
